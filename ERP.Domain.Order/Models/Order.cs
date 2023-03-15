@@ -1,6 +1,8 @@
-﻿namespace ERP.Domain.Order.Models
+﻿using ERP.Shared.Base;
+
+namespace ERP.Domain.Order.Models
 {
-    public class Order
+    public class Order:EntityBase
     {
     }
 }

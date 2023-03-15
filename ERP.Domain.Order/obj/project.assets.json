@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    ".NETCoreApp,Version=v3.1": {}
+    ".NETCoreApp,Version=v3.1": {
+      "ERP.Shared/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/ERP.Shared.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ERP.Shared.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "ERP.Shared/1.0.0": {
+      "type": "project",
+      "path": "../ERP.Shared/ERP.Shared/ERP.Shared.csproj",
+      "msbuildProject": "../ERP.Shared/ERP.Shared/ERP.Shared.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    ".NETCoreApp,Version=v3.1": []
+    ".NETCoreApp,Version=v3.1": [
+      "ERP.Shared >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\DELL\\.nuget\\packages\\": {}
@@ -33,7 +52,11 @@
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
-          "projectReferences": {}
+          "projectReferences": {
+            "D:\\Amr\\Study\\practiceSubmodules\\ERP.Domain\\ERP.Shared\\ERP.Shared\\ERP.Shared.csproj": {
+              "projectPath": "D:\\Amr\\Study\\practiceSubmodules\\ERP.Domain\\ERP.Shared\\ERP.Shared\\ERP.Shared.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
