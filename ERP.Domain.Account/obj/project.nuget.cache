@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "azeHD0+PeROJFuACpSAcvApy/w8esWftPN6C7w0mtLaGFUrvotLZ2LDkbMkPQ2+pyqd9m/Pp7CWdGi4VPEru0g==",
+  "success": true,
+  "projectFilePath": "D:\\Amr\\Study\\practiceSubmodules\\ERP.Domain\\ERP.Domain.Account\\ERP.Domain.Account.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\DELL\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.25\\microsoft.netcore.app.host.win-x64.3.1.25.nupkg.sha512"
+  ],
+  "logs": []
+}
