@@ -4,5 +4,9 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\ERP.Shared\ERP.Shared\ERP.Shared.csproj" />
+  </ItemGroup>
+
 
 </Project>
